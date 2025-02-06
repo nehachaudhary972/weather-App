@@ -22,9 +22,8 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-
 .main-section {
-  background-color: rgb(160, 201, 195);
+  background-color: rgb(219, 173, 230);
   box-shadow: 25px 25px 30px rgba(0, 0, 0, 0.3);
   height: 70vh;
   width: 80vh;
@@ -43,7 +42,6 @@ body {
   border: none;
   outline: none;
   text-align: center;
- 
 }
 
 .topnav {
@@ -77,7 +75,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 5.5px;
+  margin-bottom: 20px;
   cursor: pointer;
 }
 .wind {
@@ -85,16 +83,22 @@ body {
   bottom: 0;
   right: 0;
   margin-right: 10px;
-  margin-bottom: 5.5px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   gap: 10px;
   cursor: pointer;
 }
-.search-button{
+.search-button {
   border: none;
   background-color: white;
-  
+}
+.weather-info p {
+  text-align: center;
+  font-size: 20px;
+}
+#temp{
+  text-align: center;
 }
 @media (max-width: 700px) {
   .main-section {
@@ -102,7 +106,7 @@ body {
 
     min-height: 60vh;
     padding: 15px;
-    background-color: rgb(219, 173, 230);
+    
   }
 
   .searchbar {
